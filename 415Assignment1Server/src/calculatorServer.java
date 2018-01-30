@@ -5,6 +5,7 @@ public class calculatorServer {
 	
     static String okMsg = "515OK - From CalculatorServer";
 
+
     public static void main(String[] args) throws IOException {
 
     	//just faster to put here, for changes
@@ -24,6 +25,7 @@ public class calculatorServer {
 	    		
 	    		//creates the connection to the client
 	    	   clientSock = serverSocket.accept();
+
 	    	    
 	    	    //printwriter takes our string and sends as a byte stream
 	    	    PrintWriter clientWriter =
@@ -51,6 +53,7 @@ public class calculatorServer {
         }
     }
 }
+
 
 
 

@@ -57,6 +57,8 @@ class ClientHandler extends Thread
                 	
                 	//echoes back the sent information
                 	clientWriter.println(equation + "Received");
+                	int num = Thread.activeCount();
+                	clientWriter.println(num);
                 }
                  
 
