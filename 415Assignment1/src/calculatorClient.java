@@ -50,6 +50,9 @@ public class calculatorClient {
 	           //do while loop keeps the prompt going until the user enters exit
 	           do{
 		           //prompt the user and receive input
+	        	   System.out.println("Welcome to the 415 Calculator. \n");
+	        	   System.out.println("You may enter \" count \" to show the number of connections, \n");
+	        	   System.out.println("or \" exit \" to disconnect\n");
 		           System.out.println("Enter simple equation: \n");
 		           equation = keyScan.nextLine();
 		           
