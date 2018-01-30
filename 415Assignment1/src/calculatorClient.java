@@ -16,7 +16,7 @@ public class calculatorClient {
 
 		//Declarations
 	    Socket clientSock; 
-	    int port = 5555;
+	    int port = 5556;
 	    String server = "localhost";
 	   
 	    //try and catch block to open communication via the Socket sock1
